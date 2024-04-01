@@ -37,10 +37,21 @@ body{
 .faq-body{
     display: flex;
     flex-direction: column;
-    gap: 53px;
+    gap: 48px;
     margin-top: 32px;
 }
 
+.question{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+.question:hover{
+    background-color: rgba(80, 0, 118, 0.2);
+}
+.question:active{
+    background-color: rgba(80, 0, 118, 0.5);
+}
 
 .faq-header{
     font-weight: 600;
